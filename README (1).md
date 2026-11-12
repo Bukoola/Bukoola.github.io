@@ -2,7 +2,7 @@
 
 **A discounted cash flow model for a fictional listed renewable energy company, used to value the business and to decide whether a new capital project is worth investing in.**
 
-> Status: in progress
+> Status: complete
 
 ## What the model does
 

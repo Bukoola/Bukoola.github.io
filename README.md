@@ -14,9 +14,9 @@ Financial analyst with an accounting background and an MSc in Data Science. I bu
 | Project | What it shows | Tools | Status |
 | --- | --- | --- | --- |
 | [Credit default model: development and independent validation](credit-model-validation/) | Model risk: data quality, champion–challenger testing, calibration, fairness, stress testing, validation report | Python, pandas, scikit-learn, XGBoost | Complete |
-| [Theatre producer FP&A dashboard](entertainment-fpa-dashboard/) | Budget vs actual, variance drivers and full-year latest estimate for a West End producer | Power BI, Power Query (M), DAX | In progress |
-| [DCF valuation and capex appraisal](financial-models/dcf-renewable-energy/) | Company valuation, capital project appraisal and scenarios for a renewable energy company | Excel | In progress |
-| [Three-statement model](financial-models/three-statement-meridian/) | Linked income statement, balance sheet and cash flow for a manufacturer | Excel | In progress |
+| [Theatre producer FP&A dashboard](entertainment-fpa-dashboard/) | Budget vs actual, variance drivers and full-year latest estimate for a West End producer | Power BI, Power Query (M), DAX | Complete |
+| [DCF valuation and capex appraisal](financial-models/dcf-renewable-energy/) | Company valuation, capital project appraisal and scenarios for a renewable energy company | Excel | Complete |
+| [Three-statement model](financial-models/three-statement-meridian/) | Linked income statement, balance sheet and cash flow for a manufacturer | Excel | Complete |
 | [Forged identity document detection](deep-learning-id-forgery/) | Deep learning image classification for fraud and KYC | Python, deep learning | Academic project |
 | [Financial chatbot](https://github.com/Bukoola/financial_advisory_chatbot) | Conversational assistant for financial questions (MSc project) | Python, LLMs | Complete |
 
