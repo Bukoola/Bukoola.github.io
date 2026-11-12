@@ -1,37 +1,35 @@
-# Theatre Producer FP&A Dashboard
+# Bukola Oyekunle — Portfolio
 
-**An interactive Power BI dashboard that answers the three questions a West End producer's finance director asks every month: are we on budget, what is driving the variances, and where will the year land?**
+Financial analyst with an accounting background and an MSc in Data Science. I build financial and credit models, then test whether they hold up.
 
-> Status: in progress
+- **Part-qualified ACCA** (BT, MA, FA, LW passed first time; Performance Management in progress)
+- **MSc Data Science**, York St John University (2026)
+- **BSc Accounting**, Bells University of Technology
+- Forecasting across seven client engagements, typically within 1–3% of actual
 
-<!-- Add a screenshot of the main dashboard page here, e.g.:
-![Dashboard overview](screenshots/overview.png) -->
+[LinkedIn](https://www.linkedin.com/in/bukola-oyekunle) · [Portfolio website](https://bukoola.github.io)
 
-## The business
+## Projects
 
-Touchgold Productions Ltd is a fictional producer with two West End shows, one show in its opening period and three touring productions. Its financial year runs January to December. The dashboard is built for the finance director, producers and shareholders.
+| Project | What it shows | Tools | Status |
+| --- | --- | --- | --- |
+| [Credit default model: development and independent validation](credit-model-validation/) | Model risk: data quality, champion–challenger testing, calibration, fairness, stress testing, validation report | Python, pandas, scikit-learn, XGBoost | Complete |
+| [Theatre producer FP&A dashboard](entertainment-fpa-dashboard/) | Budget vs actual, variance drivers and full-year latest estimate for a West End producer | Power BI, Power Query (M), DAX | In progress |
+| [DCF valuation and capex appraisal](financial-models/dcf-renewable-energy/) | Company valuation, capital project appraisal and scenarios for a renewable energy company | Excel | In progress |
+| [Three-statement model](financial-models/three-statement-meridian/) | Linked income statement, balance sheet and cash flow for a manufacturer | Excel | In progress |
+| [Forged identity document detection](deep-learning-id-forgery/) | Deep learning image classification for fraud and KYC | Python, deep learning | Academic project |
+| [Financial chatbot](https://github.com/Bukoola/financial_advisory_chatbot) | Conversational assistant for financial questions (MSc project) | Python, LLMs | Complete |
 
-## Questions it answers
+## How this repository is organised
 
-1. **Are we on budget?** Actual vs budget by production, month and cost line.
-2. **What drives the variances?** Box office, running costs and other lines broken down so the main causes are visible at a glance.
-3. **Where will the year land?** A full-year latest estimate combining actuals to date with the forecast for the remaining months.
+Each project has its own folder with a README explaining the business question, approach, results and files. Code, reports and models sit inside each folder.
 
-## Data and build
-
-- **Data:** publicly sourced industry figures (Society of London Theatre, UK Theatre, Companies House filed accounts, Arts Council England, HMRC Theatre Tax Relief statistics), used to set realistic levels for the fictional company.
-- **Model:** star schema with fact tables for actuals and budget, and dimensions for production, date and account.
-- **Transformation:** Power Query (M).
-- **Measures:** DAX for variance, variance %, year-to-date, and full-year latest estimate.
-- **Design:** written for both finance and non-finance readers.
-
-<!-- Add: 2–3 findings or features you're proud of once the build is finished,
-e.g. "Tours ran 8% over budget, driven by get-in costs". -->
-
-## Files
-
-| Path | Contents |
-| --- | --- |
-| `*.pbix` | The Power BI file |
-| `screenshots/` | Images of each dashboard page |
-| `data/` | Source and prepared data files |
+```
+credit-model-validation/        Python notebook, validation report, saved outputs
+entertainment-fpa-dashboard/    Power BI file and screenshots
+financial-models/
+    dcf-renewable-energy/       Excel DCF model
+    three-statement-meridian/   Excel three-statement model
+deep-learning-id-forgery/       Academic deep learning project
+index.html                      Portfolio website (served by GitHub Pages)
+```
